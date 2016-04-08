@@ -1,0 +1,21 @@
+{
+  "name": "andyroyle-statsd_reporter",
+  "version": "0.1.0",
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "Apache-2.0",
+  "summary": "Report processor that sends metrics to statsd",
+  "source": "https://github.com/andyroyle/puppet-statsd-reporter",
+  "project_page": "https://github.com/andyroyle/puppet-statsd-reporter",
+  "issues_url": "https://github.com/andyroyle/puppet-statsd-reporter/issues",
+  "tags": ["statsd_reporter", "statsd", "reporter"],
+  "requirements": [
+    { "name": "pe", "version_requirement": ">= 3.3.0 <4.0.0" },
+    { "name": "puppet", "version_requirement": ">= 3.3.0 <5.0.0" }
+  ],
+  "operatingsystem_support": [
+    { "operatingsystem": "RedHat", "operatingsystemrelease": [ "6", "7" ] },
+    { "operatingsystem": "CentOS", "operatingsystemrelease": [ "6", "7" ] },
+    { "operatingsystem": "Ubuntu", "operatingsystemrelease": [ "10.04", "12.04", "14.04", "15.04" ] }
+  ],
+  "dependencies": []
+}
