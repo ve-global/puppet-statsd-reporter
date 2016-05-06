@@ -9,7 +9,7 @@ end
 
 Puppet::Reports.register_report(:statsd_reporter) do
 
-  configfile = File.join([File.dirname(Puppet.settings[:config]), "statsd.yaml"])
+  configfile = '/etc/puppet-statsd-reporter/statsd.yaml'
   raise(Puppet::ParseError, "StatsD report config file #{configfile} not readable") unless File.exist?(configfile)
   config = YAML.load_file(configfile)
   STATSD_SERVER = config[:statsd_server]
