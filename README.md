@@ -7,7 +7,7 @@ Installing:
 
 - Add the module to your puppetfile
 ```ruby
-mod 've-interactive/puppet-statsd-reporter',
+mod 've-interactive/statsd_reporter',
   :git => 'https://github.com/ve-interactive/puppet-statsd-reporter.git',
   :ref => '1.0.0'
 ```
